@@ -1,0 +1,117 @@
+/* design the links */
+.navbar {
+	transition: 0.5s;
+}
+body, html, p, div {
+	padding: 0;
+	margin: 0;
+}
+.navbar .nav-link, ul.nav .nav-link {
+	padding: 0 18px !important;
+	font-size: 18px !important;
+	color: #F1F1F1 !important;
+	font-family: tahoma;
+}
+.navbar .nav-link:hover {
+	color: #FFF !important;
+	border-radius: 6px;
+}
+.navbar a.active {
+	background-color: #333 !important;
+	color: #FFF !important;
+	border-radius: 6px;
+}
+/*.navbar .nav-link:focus {
+	background-color: #333 !important;
+	color: #FFF !important;
+	border-radius: 6px;
+}*/
+.row ul.flex-column a {
+	padding: 5px 0 !important;
+}
+.nav .nav-link {
+	padding: 0 18px !important;
+	font-size: 18px !important;
+	color: #DDD !important;
+	font-family: 'Aladin', cursive;
+}
+.nav .nav-link:hover {
+	color: #FFF !important;
+}
+.navbar-toggler {
+	color: #FFF !important;
+	border: 0 !important;
+}
+.navbar-brand {
+	font-size: 30px !important;
+	margin-right: 30px !important;
+	color: #80bfff !important;
+}
+.navbar-brand:hover {
+	color: #4da6ff !important;
+}
+.slide {
+	position: fixed;
+	top: 70px;
+	transition: top 0.6s;
+	overflow: hidden;
+	z-index: 1;
+	background-color: #99c2ff;
+}
+section h1 {
+	background-color: #99d6ff;
+	display: block;
+	max-width: 30%;
+	padding: 0 20px;
+	border-right: 5px solid #1aa3ff;
+	transition: 0.5s
+}
+section h1:hover {
+	padding-left: 30px;
+	max-width: 35%;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+section.body-container a:hover {
+	text-decoration: none !important;
+}
+section.body-container {
+	margin-top: 200px !important;
+	background-color: #F1F1F1;
+}
+#scroll {
+	opacity: 0;
+	position: fixed;
+	right: 0;
+	bottom: 100px;
+	transition: opacity 0.8s;
+}
+.fa-facebook, .fa-youtube, .fa-instagram, .fa-twitter {
+	font-size: 25px !important;
+	margin: 5px 0 5px 10px;
+}
+.fa-facebook {
+	color: #3B5998;
+}
+.fa-facebook:hover {
+	color: #8B9DC3;
+}
+.fa-instagram {
+	color: #C08D64;
+}
+.fa-instagram:hover {
+	color: #3F729B;
+}
+.fa-youtube {
+	background-color: #cc181e;
+	color: #FFF;
+}
+.fa-twitter {
+	color: #55ACEE;
+}
+
+@media screen and (max-width: 780px) {
+	ul.border-left {
+		border-left: none !important;
+	}
+}
